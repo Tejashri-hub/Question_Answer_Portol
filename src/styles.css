@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: whitesmoke;
+}
+
+.main_component {
+  display: flex;
+  background: rgb(212, 209, 209);
+  height: 150vh;
+}
+.box {
+  background: white;
+  width: 100px;
+  height: 100px;
+  margin-left: 230px;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 300px;
+  height: 65px;
+  border: 1px solid rgb(187, 187, 187);
+}
+.boxone {
+  background: white;
+  width: 100px;
+  height: 100px;
+  margin-left: 230px;
+  margin-top: 0.6px;
+  border-radius: 5px;
+  width: 300px;
+  height: 65px;
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.History {
+  color: rgb(255, 123, 0);
+  padding: 15px 15px 0px 15px;
+}
+
+.History a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.History a:hover {
+  color: crimson;
+}
+
+.sign {
+  color: rgb(255, 123, 0);
+  padding: 15px 15px 0px 15px;
+}
+
+.sign a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.sign a:hover {
+  color: crimson;
+}
+
+.zero {
+  margin-left: 0px;
+  color: black;
+  font-weight: none;
+}
+
+.zeroone {
+  margin-left: 0px;
+  color: black;
+  font-weight: none;
+  margin-top: 3px;
+}
+
+.main {
+  background: white;
+  width: 800px;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 7px;
+  margin-left: 40px;
+}
+
+.first {
+  display: flex;
+  padding: 15px;
+}
+
+.first .firstone img {
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 0px;
+  height: 40px;
+}
+
+.first .firsttwo p {
+  margin-left: 10px;
+}
+
+.second {
+  margin-left: 20px;
+}
+
+.second .secondone {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.second .secondtwo {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.third {
+  display: flex;
+}
+
+.third .thirdone {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.third .thirdone input {
+  width: 550px;
+  padding: 15px;
+}
+
+.third .thirdtwo button {
+  margin-top: 47px;
+  margin-left: 15px;
+  padding: 7px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 13px;
+  background: rgb(216, 50, 127);
+  border: navajowhite;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
